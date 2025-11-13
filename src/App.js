@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the My-App</h1>
+      <h1>Welcome to the XMedify</h1>
     </div>
   );
 }
