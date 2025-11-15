@@ -120,6 +120,7 @@ export default function SearchHospital() {
         type="submit"
         variant="contained"
         size="large"
+        id="searchBtn"
         startIcon={<SearchIcon />}
         sx={{ py: "15px", px: 8, flexShrink: 0 }}
         disableElevation
