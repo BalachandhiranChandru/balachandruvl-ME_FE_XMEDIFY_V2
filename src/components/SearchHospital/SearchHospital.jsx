@@ -34,7 +34,6 @@ export default function SearchHospital() {
           `https://meddata-backend.onrender.com/cities/${formData.state}`
         );
         setCities(data.data);
-        // console.log("city", data.data);
       } catch (error) {
         console.log("Error in fetching city:", error);
       }
@@ -120,7 +119,6 @@ export default function SearchHospital() {
         type="submit"
         variant="contained"
         size="large"
-        id="searchBtn"
         startIcon={<SearchIcon />}
         sx={{ py: "15px", px: 8, flexShrink: 0 }}
         disableElevation

@@ -1,17 +1,3 @@
-
-// import React from 'react';
-// import Home from './Home/Home';
-// function App() {
-//   return (
-//     <div className="App">
-//       <Home />
-//       {/* <h1>Welcome to the XMedify</h1> */}
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import { Outlet } from "react-router-dom";
 import { CssBaseline } from "@mui/material";
 import Footer from "./components/Footer/Footer";

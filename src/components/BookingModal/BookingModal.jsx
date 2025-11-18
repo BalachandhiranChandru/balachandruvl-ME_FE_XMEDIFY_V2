@@ -39,7 +39,6 @@ export default function BookingModal({
 
   const triggerEvent = () => {
     window.dataLayer = window.dataLayer || [];
-
     function triggerFirstVisitEvent() {
       window.dataLayer.push({
         event: "first_visit",

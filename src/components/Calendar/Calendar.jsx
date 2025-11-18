@@ -1,6 +1,5 @@
 import DaySelector from "./DaySelector/DaySelector";
-// eslint-disable-next-line
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { useState } from "react";
 import { startOfDay } from "date-fns";
 import TimeSlotPicker from "./TimeSlotPicker/TimeSlotPicker";

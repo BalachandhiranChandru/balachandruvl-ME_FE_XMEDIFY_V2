@@ -1,65 +1,34 @@
-import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
-import banner from '../../../assets/patientcaring.jpg'
-import tick from '../../../assets/tick-blue.jpg'
+import { Box, Container, Grid, Typography } from "@mui/material";
+import banner from '../../../assets/our-families-banner.jpg'
 
-export default function PatientCaring() {
+export default function OurFamilies() {
     return (
-        <Box py={6} sx={{ background: 'linear-gradient(#E7F0FF, #E8F1FF)' }}>
+        <Box pt={3} sx={{ background: 'linear-gradient(#E7F0FF, #E8F1FF)' }}>
             <Container>
-                <Grid container spacing={6} alignItems='center'>
-
-                    <Grid item xs={12} md={6}>
-                        <Box
-                            component='img'
-                            src={banner}
-                            width={1}
-                        />
-                    </Grid>
+                <Grid container alignItems='center' spacing={{xs:2,md:10}}>
 
                     <Grid item xs={12} md={6}>
                         <Typography
                             fontWeight={600}
                             color="primary.main"
                         >
-                            HELPING PATIENTS FROM AROUND THE GLOBE!!
+                            CARING FOR THE HEALTH OF YOU AND YOUR FAMILY.
                         </Typography>
-                        <Typography variant="h2" mb={1}>
-                            Patient <Box component='span' color='primary.main'>Caring</Box>
+                        <Typography variant="h2">
+                            Our Families
                         </Typography>
                         <Typography color='#77829D' lineHeight={1.8}>
-                            Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for healthcare.
+                            We will work with you to develop individualised care plans, including management of chronic diseases. If we cannot assist, we can provide referrals or advice about the type of practitioner you require. We treat all enquiries sensitively and in the strictest confidence.
                         </Typography>
+                    </Grid>
 
-                        <List sx={{ fontSize: { xs: 12, md: 18 } }}>
-                            <ListItem disableGutters>
-                                <ListItemIcon sx={{ minWidth: 32 }}>
-                                    <Box component='img' src={tick} height={22} width={22} />
-                                </ListItemIcon>
-                                <ListItemText
-                                    primary='Stay Updated About Your Health'
-                                    primaryTypographyProps={{ fontSize: { xs: 14, md: 18 }, fontWeight: 500, color: '#1B3C74' }}
-                                />
-                            </ListItem>
-                            <ListItem disableGutters>
-                                <ListItemIcon sx={{ minWidth: 32 }}>
-                                    <Box component='img' src={tick} height={22} width={22} />
-                                </ListItemIcon>
-                                <ListItemText
-                                    primary='Check Your Results Online'
-                                    primaryTypographyProps={{ fontSize: { xs: 14, md: 18 }, fontWeight: 500, color: '#1B3C74' }}
-                                />
-                            </ListItem>
-                            <ListItem disableGutters>
-                                <ListItemIcon sx={{ minWidth: 32 }}>
-                                    <Box component='img' src={tick} height={22} width={22} />
-                                </ListItemIcon>
-                                <ListItemText
-                                    primary='Manage Your Appointments'
-                                    primaryTypographyProps={{ fontSize: { xs: 14, md: 18 }, fontWeight: 500, color: '#1B3C74' }}
-                                />
-                            </ListItem>
-                        </List>
-
+                    <Grid item xs={12} md={6}>
+                        <Box
+                            component='img'
+                            src={banner}
+                            width={1}
+                            height='auto'
+                        />
                     </Grid>
 
                 </Grid>

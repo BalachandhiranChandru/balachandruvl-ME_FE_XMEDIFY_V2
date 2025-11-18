@@ -18,7 +18,6 @@ export default function MyBookings() {
     setFilteredBookings(bookings);
   }, [bookings]);
 
-  
   return (
     <>
       <NavBar />
@@ -90,7 +89,7 @@ export default function MyBookings() {
               )}
             </Stack>
 
-            <img src={cta} width={360} height="auto" alt="Promotional banner for Medify App" />
+            <img src={cta} width={360} height="auto" alt="cta" />
           </Stack>
         </Container>
       </Box>

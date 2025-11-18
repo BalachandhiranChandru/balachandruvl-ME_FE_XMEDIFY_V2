@@ -1,12 +1,7 @@
-// eslint-disable-next-line
 import {
   Box,
   Container,
   Button,
-// eslint-disable-next-line
-  List,
-// eslint-disable-next-line
-  ListItem,
   Stack,
   Typography,
   useMediaQuery,
