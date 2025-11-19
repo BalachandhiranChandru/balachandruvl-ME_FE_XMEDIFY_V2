@@ -1,14 +1,14 @@
 import {
+  Typography,
   Box,
   Container,
-  Button,
-  Stack,
-  Typography,
   useMediaQuery,
   IconButton,
+  Button,
+  Stack,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 import styles from "./NavBar.module.css";
 import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
