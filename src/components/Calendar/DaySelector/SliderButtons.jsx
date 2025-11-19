@@ -1,6 +1,6 @@
 import { useSwiper } from 'swiper/react';
-import next from '../../../assets/next.jpg'
-import prev from '../../../assets/prev.jpg'
+import next from '../../../assets/next.png'
+import prev from '../../../assets/prev.png'
 import { Box } from '@mui/material';
 
 function SlidePrevButton() {
