@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import img from '../../assets/home.jpg'
 import { Box, Stack, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import 'swiper/css';
+import img from '../../assets/home.webp'
 
 export default function HeroSlider() {
     return (
