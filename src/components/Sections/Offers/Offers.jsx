@@ -1,9 +1,9 @@
 import { Box, Container } from "@mui/material";
 import { Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
-import offer1 from '../../../assets/offer1.jpg'
-import offer2 from '../../../assets/offer2.jpg'
+import offer1 from '../../../assets/offer1.png'
+import offer2 from '../../../assets/offer2.png'
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Offers() {
     return (
