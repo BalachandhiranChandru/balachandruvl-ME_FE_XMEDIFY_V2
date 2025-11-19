@@ -14,13 +14,7 @@ import HeroServices from "../components/IconLayout/HeroServices";
 export default function Home() {
   return (
     <Box>
-      <Box
-        sx={{
-          background:
-            "linear-gradient(#E7F0FF , rgba(232, 241, 255, 0.47) 90%, #fff 10%)",
-        }}
-        mb={4}
-      >
+      <Box sx={{ background: "linear-gradient(#E7F0FF , rgba(232, 241, 255, 0.47) 90%, #fff 10%)", }} mb={4}>
         <NavBar />
         <Container maxWidth="xl">
           <HeroSlider />
@@ -39,19 +33,12 @@ export default function Home() {
           </Stack>
         </Container>
       </Box>
-
       <Offers />
-
       <Specialization />
-
       <Specialists />
-
       <PatientCaring />
-
       <Blogs />
-
       <OurFamilies />
-
       <FAQs />
     </Box>
   );
