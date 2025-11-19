@@ -6,8 +6,8 @@ import {
   Button,
   Stack,
 } from "@mui/material";
-import { useState } from "react";
 import { format } from "date-fns";
+import { useState } from "react";
 
 export default function BookingModal({
   setOpen,
@@ -16,22 +16,12 @@ export default function BookingModal({
   showSuccessMessage,
 }) {
   const [email, setEmail] = useState("");
-
   const handleBooking = (e) => {
     e.preventDefault();
     triggerEvent();
-
     const bookings = localStorage.getItem("bookings") || "[]";
-
     const oldBookings = JSON.parse(bookings);
-
-    localStorage.setItem(
-      "bookings",
-      JSON.stringify([
-        ...oldBookings,
-        { ...bookingDetails, bookingEmail: email },
-      ])
-    );
+    localStorage.setItem("bookings", JSON.stringify([...oldBookings, { ...bookingDetails, bookingEmail: email },]));
     showSuccessMessage(true);
     setEmail("");
     setOpen(false);
