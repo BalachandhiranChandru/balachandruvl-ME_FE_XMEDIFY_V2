@@ -5,12 +5,12 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import logo from "../../assets/logo.jpg";
-import fb from "../../assets/fb.jpg";
-import pinterest from "../../assets/pinterest.jpg";
-import twitter from "../../assets/twitter.jpg";
-import yt from "../../assets/yt.jpg";
+import logo from "../../assets/logo.png";
+import fb from "../../assets/fb.png";
+import yt from "../../assets/yt.png";
 import FooterLink from "./FooterLink";
+import pinterest from "../../assets/pinterest.png";
+import twitter from "../../assets/twitter.png";
 
 export default function Footer() {
   return (
