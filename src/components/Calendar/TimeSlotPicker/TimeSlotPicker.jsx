@@ -1,5 +1,4 @@
 import { Chip, Stack, Typography, Divider } from "@mui/material";
-
 export default function TimeSlotPicker({
   availableSlots,
   details,
