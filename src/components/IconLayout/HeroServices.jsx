@@ -1,11 +1,11 @@
 import { Box, Grid, Typography } from "@mui/material";
-import doctorIcon from "../../assets/Doctor.jpg";
-import pharmacyIcon from "../../assets/Drugstore.jpg";
-import hospitalIcon from "../../assets/Hospital.jpg";
-import capsuleIcon from "../../assets/Capsule.jpg";
-import ambulanceIcon from "../../assets/Ambulance.jpg";
+import pharmacyIcon from "../../assets/Drugstore.png";
+import ambulanceIcon from "../../assets/Ambulance.png";
 import IconCard from "../IconCard/IconCard";
 import { useMemo } from "react";
+import hospitalIcon from "../../assets/Hospital.png";
+import capsuleIcon from "../../assets/Capsule.png";
+import doctorIcon from "../../assets/Doctor.png";
 
 export default function HeroServices() {
   const Services = useMemo(
