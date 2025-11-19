@@ -6,14 +6,11 @@ import { format, add, isEqual, startOfDay } from 'date-fns'
 import { SlideNextButton, SlidePrevButton } from './SliderButtons';
 
 export default function DaySelector({ selectedDate, setSelectedDate, totalSlots }) {
-
     const date = startOfDay(new Date())
     const dateItems = []
-
     for (let i = 0; i < 7; i++) {
         dateItems.push(add(date, { days: i }))
     }
-
     const customDateFormat = day => {
         if (isEqual(date, day)) {
             return 'Today'
@@ -25,11 +22,9 @@ export default function DaySelector({ selectedDate, setSelectedDate, totalSlots 
             return format(day, 'E, d LLL')
         }
     }
-
     const handleClick = (day) => {
         setSelectedDate(day)
     }
-
     return (
         <Stack pt={3} position='relative'>
             <Divider sx={{ mb: 3 }} />
