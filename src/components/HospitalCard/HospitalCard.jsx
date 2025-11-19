@@ -1,9 +1,9 @@
-import icon from "../../assets/hospitalicon.jpg";
-import { Box, Button, Chip, Divider, Stack, Typography } from "@mui/material";
-import thumb from "../../assets/thumbsup.jpg";
-import Calendar from "../Calendar/Calendar";
+import icon from "../../assets/hospitalicon.png";
 import { useState } from "react";
 import { format } from "date-fns";
+import thumb from "../../assets/thumbsup.png";
+import Calendar from "../Calendar/Calendar";
+import { Box, Button, Chip, Divider, Stack, Typography } from "@mui/material";
 
 export default function HospitalCard({
   details,
@@ -12,7 +12,6 @@ export default function HospitalCard({
   booking = false,
 }) {
   const [showCalendar, setShowCalendar] = useState(false);
-
   return (
     <Box sx={{ borderRadius: 2, bgcolor: "#fff", p: { xs: 2, md: 4 } }}>
       <Stack
