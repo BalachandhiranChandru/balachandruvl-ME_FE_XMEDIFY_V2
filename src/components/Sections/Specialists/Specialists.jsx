@@ -1,13 +1,13 @@
 import { Box, Typography } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/css';
-import img1 from '../../../assets/lesley.jpg'
-import img2 from '../../../assets/ahmad.jpg'
-import img3 from '../../../assets/heena.jpg'
-import img4 from '../../../assets/ankur.jpg'
-import img5 from '../../../assets/ahmad-stevens.jpg'
 import SpecialistCard from './SpecialistCard'
 import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import img1 from '../../../assets/lesley.png'
+import img2 from '../../../assets/ahmad.png'
+import img5 from '../../../assets/ahmad-stevens.png'
+import img3 from '../../../assets/heena.png'
+import img4 from '../../../assets/ankur.png'
 
 export default function Specialists() {
 
